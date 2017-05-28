@@ -1,0 +1,44 @@
+cd /
+pwd
+ls
+mkdir /a 
+ls
+cd /a/b
+mkdir new
+mkdir /a/b/again
+cd /a/b pwd
+cd ../../
+pwd
+touch f1 
+ls
+touch /a/f2
+ls /a
+touch /a/f2
+ls /a
+rmdir /a/b/c
+rmdir /a
+rmdir /a/b
+rmdir /a
+ls
+unlink f1
+ls /
+touch f1
+touch f2
+open f1 1
+pfd
+write 0
+testing
+ls
+write 0
+new text
+close 0
+open f1 0
+pfd
+read 0 10
+read 0 100
+read 0 200
+lseek 0 0
+read 0 100
+close 0
+q
+
